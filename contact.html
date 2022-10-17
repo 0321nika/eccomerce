@@ -1,14 +1,14 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Validation</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
     <header class="header">
@@ -38,22 +38,52 @@
             <input type="submit" value="Login Now" class="button">
         </form>
     </header>
-    <div class="container">
-        <form id="form" action="/">
-            <h1>Sign in</h1>
-            <div class="input-control">
-                <label for="email">Email</label>
-                <input id="email" name="email" type="text">
+    <section class="section">
+        <div class="container2">
+            <div class="content">
+                <div class="left-side">
+                    <div class="address details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="topic">Address</div>
+                        <div class="text-one">Georgia </div>
+                        <div class="text-two">blabla</div>
+                    </div>
+                    <div class="phone details">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="topic">Phone</div>
+                        <div class="text-one">+995 123 456 789</div>
+                        <div class="text-two">+995 123 456 789</div>
+                    </div>
+                    <div class="email details">
+                        <i class="fas fa-envelope"></i>
+                        <div class="topic">Email</div>
+                        <div class="text-one">zaika@gmail.com</div>
+                        <div class="text-two">blabla@gmail.com</div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="topic-text">
+                        Send us a message
+                    </div>
+                    <p>If you have any work from me or any types of queries related to my tutorial, you can send me message from here. It's my pleasure to help you</p>
+                    <form action="#">
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your name">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your email">
+                        </div>
+                        <div class="input-box message-box">
+                            <textarea placeholder="Text here..."></textarea>
+                        </div>
+                        <div class="button1">
+                            <input type="button1" value="Send Now">
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="input-control">
-                <label for="password">Password</label>
-                <input id="password"name="password" type="password">
-            </div>
-            <button type="submit">Sign Up</button>
-            <p>Dont have an acount? <a href="./register.html">Register</a></p>
-            <p>forgot password? <a href="">Click here</a></p>
-        </form>
-    </div>
+        </div>
+    </section>
     <!-- footer section start -->
     <footer class="footer-distributed">
         <div class="footer-left">
@@ -100,7 +130,7 @@
             </div>
     </footer>
 <!-- footer section end -->
-
-    <script src="./main.js"></script>
+    
+    
 </body>
 </html>

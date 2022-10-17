@@ -6,14 +6,6 @@ function myFunction() {
       x.style.display = "none";
     }
   }
-  function myFunction1() {
-    var x = document.getElementById("shoppingCart");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
   function myFunction2() {
     var x = document.getElementById("loginForm");
     if (x.style.display === "block") {
@@ -32,7 +24,7 @@ function myFunction() {
   }
 
   // registration
-  const form = document.getElementById('form');
+const form = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
@@ -103,11 +95,5 @@ const validateInputs = () => {
         setSuccess(password2);
     }
 };
-
-
-
-
-
-
 
 
